@@ -67,3 +67,8 @@ squared_nums = square_generator(numbers)
 example = lambda x : x ** 2
 print([x for x in squared_nums])
 print(example(4))
+
+# some list stuff..
+
+print(fruits[:-1])
+print(fruits[::-2])
