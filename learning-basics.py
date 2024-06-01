@@ -1,5 +1,22 @@
 from functools import reduce
 
+## more simple examples.. for list comprehension, lambda and map..
+
+num = [1, 2, 4]
+
+sum = [y**2 for y in num]
+print(sum)
+
+sum = lambda x: [a**2 for a in x]
+
+print(sum(num))
+
+def squarer(x):
+    return x**2
+
+print(list(map(squarer, num)))
+
+## more advance examples..
 
 def add(x, y):
     return x + y
