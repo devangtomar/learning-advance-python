@@ -13,3 +13,7 @@ if __name__ == "__main__":
     print(car2)
     print(car1.color)
     print(car2.color)
+
+    car1.drive()
+    car2.drive()
+    car1.stop()
