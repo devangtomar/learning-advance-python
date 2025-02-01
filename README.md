@@ -1,51 +1,38 @@
-<h1 align="center">
-  🐼🧮 Pandas and Numpy Learning Repo 🧮🐼
-</h1>
+# Codebase Analysis
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/devangtomar/learning-advance-python" alt="License">
-  <img src="https://img.shields.io/github/issues/devangtomar/learning-advance-python" alt="Issues">
-  <img src="https://img.shields.io/github/stars/devangtomar/learning-advance-python" alt="Stars">
-  <img src="https://img.shields.io/github/forks/devangtomar/learning-advance-python" alt="Forks">
-</p>
+This repository contains a collection of Python scripts, Jupyter notebooks and text files.
 
-<p align="center">
-  This repository was created to learn and practice using Pandas and Numpy libraries for data manipulation and analysis in Python.
-</p>
+## Scripts
 
-## 📚 Learning Resources
+The `scripts` directory contains the following Python scripts:
 
-Here are some resources we recommend for learning Pandas and Numpy:
+- `continue-learning-python-intermediate.py`: A script demonstrating more advanced concepts in Python such as decorators, itertools and JSON encoding/decoding.
+- `learning-basics.py`: A script demonstrating basic concepts in Python such as data types, functions, loops, conditional statements, lists, dictionaries and object-oriented programming.
+- `learning-python-intermediate.py`: A script demonstrating more intermediate concepts in Python such as generators, list comprehensions, lambda functions, map, filter, reduce and exception handling.
 
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Numpy Documentation](https://numpy.org/doc/)
-- [DataCamp Pandas Course](https://www.datacamp.com/courses/pandas-foundations)
-- [DataCamp Numpy Course](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+## Notebooks
 
-## 🚀 Getting Started
+The `pandas-master` directory contains the following Jupyter notebook:
 
-To get started with this repository, you'll need to have Python 3 installed on your machine. You can download Python from the [official website](https://www.python.org/downloads/).
+- `Pandas Data Science Tutorial.ipynb`: A Jupyter notebook demonstrating various concepts in the Pandas library such as reading and writing data, filtering, sorting, grouping, joining and reshaping data.
 
-Once you have Python installed, you can clone this repository using the following command:
+## Text Files
 
-```
-git clone https://github.com/devangtomar/learning-advance-python.git
-```
+The repository contains the following text files:
 
-After cloning the repository, navigate to the project directory and install the required dependencies:
+- `README.md`: This file.
+- `LICENSE.txt`: The license under which the code is released.
+- `requirements.txt`: A list of Python packages required to run the code in the repository.
 
+## Package Requirements
 
-```sh
-cd <your_repo_name>
-pip install -r requirements.txt
-```
+The code in the repository requires the following Python packages:
 
-## 📝 Contributing
-
-We welcome contributions to this repository! If you find a bug or have an idea for a new feature, please open an issue or submit a pull request.
-
-Before contributing, please make sure to read our [code of conduct](CODE_OF_CONDUCT.md) and [contribution guidelines](CONTRIBUTING.md).
-
-## 📄 License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- scipy
+- statsmodels
+- jupyter
